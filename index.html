@@ -9,25 +9,60 @@
 <body>
     <form action="" method="post">
         <!-- each field below should have a input element and a label -->
+
         <!-- first name -->
-        
+        <fieldset>   
+        <label for="first-name">First Name</label><br>
+        <input id="first-name" type="text" name="first-name" required placeholder="First Name">
+        <br><br>
        
         <!-- last name -->
-        
+        <label for="last-name">Last Name</label><br>
+        <input id="last-name" type="text" name="last-name" required placeholder="Last Name">
+        </fieldset>
+
         <!-- Date of Birth -->
-       
+       <label for="birthday">Date of Birth</label><br>
+        <input id="birthday" type="date" name="birthday" required><br>
+
         <!-- Gender -->
-        
+        <label for="gender">Gender Identity</label><br>
+        <input id="gender" type="" />
+
+        <label for="gender" >Gender Identity
+            <select id="gender">
+              <option value="">(select one)</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Nonbinary</option>
+              <option value="4">Other</option>
+            </select>
+          </label><br>
+
         <!-- Address -->
-       
+        <label for="address">Address</label><br>
+        <input id="address" type="" ><br>
+
         <!-- phone number -->
-       
+        <fieldset>
+       <label for="phone-number">Phone Number</label><br>
+        <input id="phone-number" type=""  ><br><br>
+
         <!-- email  -->
-        
+        <label for="">Email</label><br>
+        <input id="" type="email"  ><br>
+        </fieldset>
+
         <!-- Insurance -->
         
+        <label for="">Insurance</label><br>
+        <input id="" type="" ><br>
+        
         <!-- medical history -->
-       
+        <label for="">Medical History</label><br>
+        <input id="" type="" >
+        <br><br>
         <!-- Submit Button -->
+        <input type="submit" value="Submit">
     </form>
 </html>
